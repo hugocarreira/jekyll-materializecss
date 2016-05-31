@@ -1,0 +1,11 @@
+- title: home
+  url: /
+
+- title: sobre
+  url: /me
+
+- title: github
+  url: "http://github.com/hugocarreira"
+
+- title: STAR
+  url: "http://github.com/hugocarreira/jekyll-materialize"
