@@ -2,5 +2,8 @@
 a simple theme for Jekyll using Materializecss  
 
 ## TODO 
-- /me Page
-- /post's Page
+   - [ ] Post Page
+   - [ ] /me Page
+  
+## Contributing
+I accept sugestions.
