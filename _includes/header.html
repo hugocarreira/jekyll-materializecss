@@ -1,0 +1,18 @@
+<nav class="{% for item in site.data.style %}{{ item.navcolor }}{% endfor %}" role="navigation">
+      <div class="container">
+        <div class="nav-wrapper"><a id="logo-container" href="#" class="brand-logo">{{ site.title }}</a>
+          <ul class="right">
+          {% for item in site.data.navigation %}
+            <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+          {% endfor %}
+          </ul>
+
+          <ul id="nav-mobile" class="side-nav">
+          {% for item in site.data.navigation %}
+            <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+          {% endfor %}
+          </ul>
+          <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+        </div>
+      </div>
+    </nav>
