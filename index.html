@@ -20,7 +20,7 @@ layout: default
 <section class="v100">
 <br>
   <div>
-    <h2 class="center-align teal-text">Últimos Post's</h2>
+    <h2 class="center-align teal-text">Latest Posts</h2>
   </div>
   <div class="divider"></div>
   <div class="container container-wide">
@@ -49,11 +49,11 @@ layout: default
       {% else %}
         <li class="waves-effect"><i class="material-icons">chevron_left</i></li>
       {% endif %}
-        <li class="page_number">Página: {{ paginator.page }} de {{ paginator.total_pages }}</li>
+        <li class="page_number">Page: {{ paginator.page }} of {{ paginator.total_pages }}</li>
       {% if paginator.next_page %}
         <li class="waves-effect"><a href="{{ paginator.next_page_path }}" ><i class="material-icons">chevron_right</i></a></li>
       {% else %}
-        <li class="next"><i class="material-icons">chevron_right</i></li>
+        <li class="waves-effect"><i class="material-icons">chevron_right</i></li>
       {% endif %}
     </ul>
   </div>
