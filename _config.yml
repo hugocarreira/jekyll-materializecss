@@ -6,7 +6,7 @@ author_github: "hugocarreira" # only username
 description: >
   a simple theme for Jekyll using Materializecss
 baseurl: "/"
-url: "http://127.0.0.1:4000"
+url: "http://hugocarreira.github.io/jekyll-materializecss"
 
 paginate: 12
 
