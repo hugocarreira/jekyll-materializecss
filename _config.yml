@@ -1,18 +1,25 @@
 
-title: Hugo Carreira - Jekyll Materialize
+title: Jekyll Materialize
 email: your-email@domain.com
 author: "hugocarreira"
 author_github: "hugocarreira" # only username
 description: >
   a simple theme for Jekyll using Materializecss
 baseurl: "/"
-url: "http://hugocarreira.github.io/jekyll-materializecss"
+url: "http://127.0.0.1:4000"
 
 paginate: 12
 
+github:
+  user: hugocarreira
+  repository: jekyll-materializecss
+  status: true # nav star button (true/false)
+
+home_bgfile: bg.jpg # backgroung image heade (assets/images/bg.jpg)
+
 sass:
-  style: :compressed
-  sass_dir: _sass
+  sass_dir: assets/css
+  style: compressed
 
 markdown: kramdown
 kramdown:
