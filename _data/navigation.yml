@@ -1,11 +1,11 @@
 - title: home
-  url: /
+  url: http://hugocarreira.github.io/jekyll-materializecss
 
 - title: about
-  url: /me
+  url: http://hugocarreira.github.io/jekyll-materializecss/me
 
 - title: sobre
-  url: /me/pt-br
+  url: http://hugocarreira.github.io/jekyll-materializecss/me/pt-br
 
 - title: github
   url: "http://github.com/hugocarreira"
