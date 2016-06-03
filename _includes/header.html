@@ -1,11 +1,11 @@
 
 <nav class="teal accent-4" role="navigation">
   <div class="container">
-    <div class="nav-wrapper"><a id="logo-container" href="{{ site.url }}" class="brand-logo">{{ site.title }}</a>
+    <div class="nav-wrapper"><a id="logo-container" href="{{ site.github.url }}" class="brand-logo">{{ site.title }}</a>
       <a href="#" data-activates="mobile-menu" class="button-collapse"><i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down">
           {% for item in site.data.navigation %}
-            <li><a href="{{ item.url | site.url }}">{{ item.title }}</a></li>
+            <li><a href="{{ item.url | prepend: site.github.url }}">{{ item.title }}</a></li>
           {% endfor %}
 
           {% if site.github.status == true %}
@@ -17,7 +17,7 @@
         </ul>
         <ul class="side-nav" id="mobile-menu">
           {% for item in site.data.navigation %}
-            <li><a href="{{ item.url | site.url }}">{{ item.title }}</a></li>
+            <li><a href="{{ item.url | prepend: site.github.url }}">{{ item.title }}</a></li>
           {% endfor %}
 
           {% if site.github.status == true %}
