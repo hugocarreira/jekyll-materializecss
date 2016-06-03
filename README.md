@@ -9,7 +9,8 @@ a simple theme for [Jekyll](https://github.com/jekyll/jekyll) using [Materialize
 ## TODO 
    - [x] Correct the scss files
    - [x] Post Page
-   - [x] /me Page
+   - [x] About Me Page
+   - [x] About Me Page (pt-br)
 
 ## Preview:
 [Online Preview](http://hugocarreira.github.io/jekyll-materializecss)
