@@ -1,10 +1,10 @@
-# jekyll-materializecss
+# jekyll-materializecss [DEMO](http://hugocarreira.github.io/jekyll-materializecss)
 a simple theme for [Jekyll](https://github.com/jekyll/jekyll) using [Materializecss](https://github.com/Dogfalo/materialize) 
 
 ## Using
    - Clone this repository  
    - ``` bundle install ```  
-   - ``` jekyll serve --watch ```
+   - ``` jekyll serve ```
 
 ## TODO 
    - [x] Correct the scss files
@@ -13,8 +13,6 @@ a simple theme for [Jekyll](https://github.com/jekyll/jekyll) using [Materialize
    - [x] About Me Page (pt-br)
 
 ## Preview:
-[Online Preview](http://hugocarreira.github.io/jekyll-materializecss)
-
 ![alt tag](jekyll-materialize.jpg)
   
 ## Contributing
