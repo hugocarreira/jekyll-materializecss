@@ -7,9 +7,9 @@ a simple theme for [Jekyll](https://github.com/jekyll/jekyll) using [Materialize
    - ``` jekyll serve --watch ```
 
 ## TODO 
-   - [ ] Correct the scss files
-   - [ ] Post Page
-   - [ ] /me Page
+   - [x] Correct the scss files
+   - [x] Post Page
+   - [x] /me Page
 
 ## Preview:
 [Online Preview](http://hugocarreira.github.io/jekyll-materializecss)

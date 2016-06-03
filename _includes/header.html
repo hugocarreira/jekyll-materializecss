@@ -5,7 +5,7 @@
       <a href="#" data-activates="mobile-menu" class="button-collapse"><i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down">
           {% for item in site.data.navigation %}
-            <li><a href="{{ site.url }}/{{ item.url }}">{{ item.title }}</a></li>
+            <li><a href="{{ item.url | site.url }}">{{ item.title }}</a></li>
           {% endfor %}
 
           {% if site.github.status == true %}
@@ -17,7 +17,7 @@
         </ul>
         <ul class="side-nav" id="mobile-menu">
           {% for item in site.data.navigation %}
-            <li><a href="{{ site.url }}/{{ item.url }}">{{ item.title }}</a></li>
+            <li><a href="{{ item.url | site.url }}">{{ item.title }}</a></li>
           {% endfor %}
 
           {% if site.github.status == true %}
