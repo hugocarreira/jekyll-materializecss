@@ -1,11 +1,11 @@
 - title: home
-  url: /
+  url:
 
 - title: about
-  url: /me
+  url: me
 
 - title: sobre
-  url: /me/pt-br
+  url: me/pt-br
 
 - title: github
   url: "http://github.com/hugocarreira"
