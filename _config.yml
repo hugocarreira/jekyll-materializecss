@@ -6,13 +6,14 @@ author_github: "hugocarreira" # only username
 description: >
   a simple theme for Jekyll using Materializecss
 baseurl: "/"
-url: "http://127.0.0.1:4000"
+url: "http://hugocarreira.github.io/jekyll-materializecss"
 
 paginate: 12
 
 github:
   user: hugocarreira
   repository: jekyll-materializecss
+  url: "http://hugocarreira.github.io/jekyll-materializecss/"
   status: true # nav star button (true/false)
 
 home_bgfile: bg.jpg # backgroung image heade (assets/images/bg.jpg)

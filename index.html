@@ -29,7 +29,7 @@ layout: default
         <ul class="collection with-header">
           <li class="collection-header">
             <div>
-              <a class="post-link teal-text post-title" href="{{ post.url | site.baseurl }}">{{ post.title }}</a>
+              <a class="post-link teal-text post-title" href="{{ post.url | prepend: site.github.url }}">{{ post.title }}</a>
               <div class="right post-meta secondary-content post-date">{{ post.date | date: "%-d de %b de %Y" }}</div>
             </div>
           </li>
@@ -43,13 +43,13 @@ layout: default
     <div class="containter containter-wide">
       <ul class="pagination center-align teal-text">
         {% if paginator.previous_page %}
-          <li class="waves-effect"><a href="{{ paginator.previous_page_path }}"><i class="material-icons">chevron_left</i></a></li>
+          <li class="waves-effect"><a href="{{ paginator.previous_page_path | site.github.url}}"><i class="material-icons">chevron_left</i></a></li>
         {% else %}
           <li class="waves-effect"><i class="material-icons">chevron_left</i></li>
         {% endif %}
           <li class="page_number">Page: {{ paginator.page }} of {{ paginator.total_pages }}</li>
         {% if paginator.next_page %}
-          <li class="waves-effect"><a href="{{ paginator.next_page_path }}" ><i class="material-icons">chevron_right</i></a></li>
+          <li class="waves-effect"><a href="{{ paginator.next_page_path | site.github.url }}" ><i class="material-icons">chevron_right</i></a></li>
         {% else %}
           <li class="waves-effect"><i class="material-icons">chevron_right</i></li>
         {% endif %}
@@ -57,6 +57,6 @@ layout: default
     </div>
 
     <div class="container">
-      <p class="rss-subscribe right-align teal-text">subscribe <a href="{{ site.url}}/feed.xml">via RSS</a></p>
+      <p class="rss-subscribe right-align teal-text">subscribe <a href="{{ site.github.url }}/feed.xml">via RSS</a></p>
     </div>
 </div>

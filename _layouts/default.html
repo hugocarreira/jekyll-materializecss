@@ -6,8 +6,8 @@
       <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
       <!--Import css files-->
-      <link rel="stylesheet" href="/assets/css/styles.css">
-      <link rel="stylesheet" href="/assets/css/materialize.css">
+      <link rel="stylesheet" href="{{ site.github.url }}/assets/css/styles.css">
+      <link rel="stylesheet" href="{{ site.github.url }}/assets/css/materialize.css">
 
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -19,8 +19,14 @@
 
         {{ content }}
 
-    {% include footer.html %}
-
+      <script type="text/javascript" src="{{ site.github.url }}/assets/js/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="{{ site.github.url }}/assets/js/materialize.min.js"></script>
+      <script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
+      <script type="text/javascript">
+          $(document).ready(function() {
+              $(".button-collapse").sideNav();
+          });
+      </script>
   </body>
 
 </html>
