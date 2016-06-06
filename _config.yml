@@ -1,32 +1,28 @@
-
+---
 title: Jekyll Materialize
 email: your-email@domain.com
-author: "hugocarreira"
-author_github: "hugocarreira" # only username
-description: >
+author: hugocarreira
+author_github: hugocarreira
+description: |
   a simple theme for Jekyll using Materializecss
 baseurl: "/"
-url: "http://hugocarreira.github.io/jekyll-materializecss"
-
+url: http://hugocarreira.github.io/jekyll-materializecss
 paginate: 12
-
 github:
   user: hugocarreira
   repository: jekyll-materializecss
-  url: "http://hugocarreira.github.io/jekyll-materializecss/"
-  status: true # nav star button (true/false)
-
-home_bgfile: bg.jpg # backgroung image heade (assets/images/bg.jpg)
-
+  url: http://hugocarreira.github.io/jekyll-materializecss/
+  status: true
+home_bgfile: bg.jpg
 sass:
   sass_dir: assets/css
   style: compressed
-
 markdown: kramdown
 kramdown:
   input: GFM
   hard_wrap: false
 highlighter: rouge
-
 gems:
-  - jekyll-paginate
+- jekyll-paginate
+exclude:
+- vendor

@@ -1,8 +1,9 @@
 ---
-layout: about
 title: Sobre mim
----
+layout: about
+draft: false
 
+---
 #### Quem sou eu?
 Olá, me chamo Hugo Carreira, sou do Rio de Janeiro, tenho 18 anos e curso Ciência da Computação na Universidade Veiga de Almeida.
 

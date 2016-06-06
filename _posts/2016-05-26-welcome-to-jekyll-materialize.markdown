@@ -1,9 +1,17 @@
 ---
+title: Welcome to Jekyll MaterializeCSS by hugocarreira!
+date: '2016-06-01 23:12:29'
+categories: []
 layout: post
-title:  "Welcome to Jekyll MaterializeCSS by hugocarreira!"
 author: hugocarreira
-date:   2016-06-01 20:12:29 -0300
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus in orci tristique, tempus nulla vel, varius neque. Vestibulum lobortis laoreet lobortis. Aenean at quam semper, aliquet enim a, placerat sapien. Morbi tortor leo, malesuada vel tincidunt non, varius eu mi.
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus in
+  orci tristique, tempus nulla vel, varius neque. Vestibulum lobortis laoreet lobortis.
+  Aenean at quam semper, aliquet enim a, placerat sapien. Morbi tortor leo, malesuada
+  vel tincidunt non, varius eu mi.
+slug: welcome-to-jekyll-materialize
+tags: []
+draft: false
+
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus in orci tristique, tempus nulla vel, varius neque. Vestibulum lobortis laoreet lobortis. Aenean at quam semper, aliquet enim a, placerat sapien. Morbi tortor leo, malesuada vel tincidunt non, varius eu mi. Suspendisse potenti. Nullam malesuada orci ut nulla pellentesque blandit. Nam nibh turpis, pharetra at est in, pellentesque feugiat ante. Vivamus rhoncus at arcu at ultrices. Maecenas vestibulum diam sed felis porttitor, vitae tempor tortor lacinia. Donec eget tempus ligula, non pharetra turpis. Nunc ornare at erat nec aliquam.  
 
