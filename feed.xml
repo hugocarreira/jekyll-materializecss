@@ -1,30 +1,33 @@
----
-layout: null
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.title | xml_escape }}</title>
-    <description>{{ site.description | xml_escape }}</description>
-    <link>{{ site.url }}{{ site.baseurl }}/</link>
-    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
-    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
-    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-    <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% for post in site.posts limit:10 %}
+    <title>Jekyll Materialize</title>
+    <description>a simple theme for Jekyll using Materializecss
+</description>
+    <link>http://hugocarreira.github.io/jekyll-materializecss//</link>
+    <atom:link href="http://hugocarreira.github.io/jekyll-materializecss//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 06 Jun 2016 03:05:19 +0000</pubDate>
+    <lastBuildDate>Mon, 06 Jun 2016 03:05:19 +0000</lastBuildDate>
+    <generator>Jekyll v3.1.6</generator>
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
-        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
-        {% for tag in post.tags %}
-        <category>{{ tag | xml_escape }}</category>
-        {% endfor %}
-        {% for cat in post.categories %}
-        <category>{{ cat | xml_escape }}</category>
-        {% endfor %}
+        <title>Welcome to Jekyll MaterializeCSS by hugocarreira!</title>
+        <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus in orci tristique, tempus nulla vel, varius neque. Vestibulum lobortis laoreet lobortis. Aenean at quam semper, aliquet enim a, placerat sapien. Morbi tortor leo, malesuada vel tincidunt non, varius eu mi. Suspendisse potenti. Nullam malesuada orci ut nulla pellentesque blandit. Nam nibh turpis, pharetra at est in, pellentesque feugiat ante. Vivamus rhoncus at arcu at ultrices. Maecenas vestibulum diam sed felis porttitor, vitae tempor tortor lacinia. Donec eget tempus ligula, non pharetra turpis. Nunc ornare at erat nec aliquam.&lt;/p&gt;
+
+&lt;p&gt;Curabitur sed lorem eu orci consectetur pellentesque. Vestibulum id dui molestie, venenatis quam id, facilisis tortor. Nam quis semper nisl. Proin est lorem, cursus in felis et, imperdiet euismod nisi. Sed vulputate neque laoreet luctus suscipit. Vestibulum ultricies sagittis egestas. Pellentesque in scelerisque nulla. Maecenas pharetra scelerisque ligula fermentum pulvinar. Aenean at sem commodo, consectetur libero vitae, eleifend justo. Phasellus varius non ligula a varius. Aliquam sed lobortis nulla. Nullam eu felis ut mauris feugiat scelerisque ac quis nunc. Curabitur varius sodales velit. In at faucibus dolor. Nullam porta placerat lectus, ut euismod tellus ultrices ac. Fusce ipsum nulla, pulvinar vitae nunc gravida, congue condimentum lectus.&lt;/p&gt;
+
+&lt;p&gt;Mauris varius eleifend dolor. Nullam id auctor diam. Ut nibh metus, mattis nec hendrerit a, cursus at lacus. Vivamus volutpat nisi non neque mattis laoreet. Etiam iaculis at risus nec mollis. Etiam faucibus diam risus, nec molestie urna euismod faucibus. Pellentesque lobortis consectetur est, nec luctus felis hendrerit bibendum. Duis est odio, aliquam quis imperdiet id, fermentum vel metus. Aenean posuere lectus id rutrum ornare. Vestibulum viverra sapien neque. Sed auctor vulputate ultricies. Nunc iaculis tincidunt lorem, in dictum tellus faucibus eget.&lt;/p&gt;
+
+&lt;p&gt;Nunc luctus viverra tincidunt. Mauris magna justo, euismod vitae vehicula id, accumsan sit amet tellus. Maecenas nec arcu in lacus vulputate sollicitudin. Sed eget porta diam. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur interdum pellentesque ornare. Curabitur convallis ac elit ac porta. Nullam vulputate suscipit neque ut sodales. Nullam in auctor magna. Pellentesque vehicula ligula in sapien lobortis, in fringilla ex suscipit. Nunc eleifend felis arcu, eget scelerisque felis luctus quis.&lt;/p&gt;
+
+&lt;p&gt;Sed ullamcorper condimentum leo a elementum. In lacinia, nibh sit amet consequat dictum, mi sem consequat neque, et egestas velit lectus vel nulla. Vestibulum faucibus enim ut libero pellentesque, quis consectetur lorem pharetra. Vestibulum porttitor risus at lacus varius hendrerit. Proin ac ligula libero. Donec quis sapien vel ex fermentum commodo consectetur id felis. Etiam in ipsum nec massa dictum pellentesque. Cras vestibulum diam eget mi lacinia porta. Donec nec hendrerit velit, eget accumsan nisi. Pellentesque ac velit est. Pellentesque ac quam vulputate, condimentum eros ac, ultricies orci. Morbi ut maximus nunc. Nam sagittis, erat eu ultricies eleifend, lectus quam imperdiet justo, dictum venenatis mauris elit eget metus. Integer viverra justo dolor, quis sollicitudin elit ultricies in. Proin a nulla ipsum.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 01 Jun 2016 23:12:29 +0000</pubDate>
+        <link>http://hugocarreira.github.io/jekyll-materializecss//2016/06/01/welcome-to-jekyll-materialize.html</link>
+        <guid isPermaLink="true">http://hugocarreira.github.io/jekyll-materializecss//2016/06/01/welcome-to-jekyll-materialize.html</guid>
+        
+        
       </item>
-    {% endfor %}
+    
   </channel>
 </rss>
