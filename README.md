@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/hugocarreira/jekyll-materializecss.svg?branch=master)](https://travis-ci.org/hugocarreira/jekyll-materializecss)
+[![Build Status](https://travis-ci.org/hugocarreira/jekyll-materializecss.svg?branch=gh-pages)](https://travis-ci.org/hugocarreira/jekyll-materializecss)
 # jekyll-materializecss [DEMO](http://hugocarreira.github.io/jekyll-materializecss)
 a simple theme for [Jekyll](https://github.com/jekyll/jekyll) using [Materializecss](https://github.com/Dogfalo/materialize) 
 
